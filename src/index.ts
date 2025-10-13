@@ -148,7 +148,6 @@ World.create(document.getElementById("scene-container") as HTMLDivElement, {
     console.error("Failed to initialize immersive world:", err);
     const container = document.getElementById("scene-container");
     if (container) {
-      container.innerHTML =
-        '<div style="color:red;padding:2em;font-size:1.5em;">Failed to load immersive world. Check the console for details.</div>';
+      container.innerHTML = `<div style="color:red;padding:2em;font-size:1.5em;">Failed to load immersive world. Check the console for details. ${err} </div>`;
     }
   });
