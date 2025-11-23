@@ -2539,7 +2539,7 @@
     },
     "settings": {
         "project": {
-            "name": "MyWonderland",
+            "name": "Skillsville.wlp",
             "version": [
                 1,
                 4,
@@ -2557,11 +2557,11 @@
         },
         "scripting": {
             "application": {
-                "output": "MyWonderland-app.js",
+                "output": "Skillsville.wlp-app.js",
                 "bundling": "esbuild"
             },
             "components": {
-                "output": "MyWonderland-bundle.js"
+                "output": "Skillsville.wlp-bundle.js"
             }
         },
         "runtime": {
