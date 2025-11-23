@@ -17,7 +17,7 @@ jobs:
         with:
           lfs: true
       - name: Package
-        run: /usr/local/bin/entrypoint.sh WonderlandEditor --windowless --package --project vrps.wlp --output ./public/
+        run: /usr/local/bin/entrypoint.sh WonderlandEditor --windowless --package --project Skillsville.wlp --output ./public/
         env:
           WLE_CREDENTIALS: ${{ secrets.WLE_CREDENTIALS }}
 
